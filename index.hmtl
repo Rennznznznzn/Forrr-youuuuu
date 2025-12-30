@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HADIAH UNTUKMU</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- TAMPILAN AWAL -->
+    <section class="landing" id="landing">
+        <div class="landing-content">
+            <h1>Hadiah spesial hanya untukmu 🎁</h1>
+            <p>Klik hadiah ini untuk membuka kejutannya.</p>
+            <br>
+
+            <button class="gift-box" id="openGiftBtn">
+                <div class="gift-icon"></div>
+                <span class="gift-text">Buka hadiah</span>
+            </button>
+
+            <small class="hint">Dibuat dengan penuh cinta dan perhatian, di setiap detailnya oleh Ahmad Fernandy.</small>
+        </div>
+    </section>
+
+    <!-- KONTEN UTAMA -->
+    <main class="main-content" id="mainContent">
+        <header class="top-header">
+            <h2 id="typewriter" class="typewriter"></h2>
+            <p>
+                Website ini hanyalah sedikit dari semua perasaan yang aku miliki untukmu.  
+                Setiap foto, setiap kata dibuat dengan penuh cinta. <br><br>
+                Untuk : Siti Zarifah
+            </p>
+        </header>
+
+        <!-- BAGIAN FOTO -->
+        <section class="section-card">
+            <h3>Kenangan kita dalam foto</h3>
+            <p class="section-subtitle">
+                Beberapa momen bersamamu yang paling aku cintai. Bersamamu selalu menjadi bagian terbaik dari hariku.
+            </p>
+
+            <div class="photo-gallery">
+                <figure class="photo-item">
+                    <img src="img/foto1.jpg" alt="Kita berdua 1" />
+                </figure>
+                <figure class="photo-item">
+                    <img src="img/foto3.jpg" alt="Kita berdua 2" />
+                </figure>
+                <figure class="photo-item">
+                    <img src="img/foto4.jpg" alt="Kita berdua 3" />
+                </figure>
+                <figure class="photo-item">
+                    <img src="img/foto5.jpg" alt="Kita berdua 4" />
+                </figure>
+                <figure class="photo-item">
+                    <img src="img/foto6.jpg" alt="Kita berdua 5" />
+                </figure>
+                <figure class="photo-item">
+                    <img src="img/foto7.jpg" alt="Kita berdua 6" />
+                </figure>
+            </div>
+        </section>
+
+        <!-- WAKTU BERSAMA -->
+        <section class="section-card">
+            <h3>Betapa indahnya mencintaimu</h3>
+            <p class="section-subtitle">
+                Sejak hari kita mulai bersama, telah berlalu:
+            </p>
+
+            <div class="time-grid">
+                <div class="time-pill">
+                    <span id="elapsedYears">0</span>
+                    <small>tahun</small>
+                </div>
+                <div class="time-pill">
+                    <span id="elapsedMonths">0</span>
+                    <small>bulan</small>
+                </div>
+                <div class="time-pill">
+                    <span id="elapsedDays">0</span>
+                    <small>hari</small>
+                </div>
+                <div class="time-pill">
+                    <span id="elapsedHours">00</span>
+                    <small>jam</small>
+                </div>
+                <div class="time-pill">
+                    <span id="elapsedMinutes">00</span>
+                    <small>menit</small>
+                </div>
+                <div class="time-pill">
+                    <span id="elapsedSeconds">00</span>
+                    <small>detik</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- TENTANG DIA -->
+        <section class="section-card">
+            <h3>Tentang kamu</h3>
+
+            <div class="description-blocks">
+                <div class="description-item">
+                    <h4>Senyummu</h4>
+                    <p>
+                        Senyummu adalah bagian favoritku dari setiap hari. Saat kamu tersenyum,
+                        segalanya terasa lebih ringan dan indah. Senyum itu bukan hanya
+                        menerangi wajahmu, tapi juga menenangkan hatiku.
+                        Saat kamu tersenyum, aku lupa semua masalah dan hanya merasa bersyukur
+                        karena memilikimu.
+                    </p>
+                </div>
+
+                <div class="description-item">
+                    <h4>Caramu menjadi dirimu</h4>
+                    <p>
+                        Caramu menjadi dirimu sendiri adalah hal paling indah yang pernah hadir dalam hidupku.
+                        Kamu bisa mengubah momen sederhana menjadi tawa, kenyamanan, dan ketenangan.
+                        Kadang kamu cemberut, kadang kesal, tapi justru itu yang membuatmu semakin manis.
+                        Kamu lembut dan kuat dalam waktu yang sama, dan itulah yang membuatku jatuh cinta
+                        padamu setiap hari.
+                    </p>
+                </div>
+
+                <div class="description-item">
+                    <h4>Diriku yang berubah karena kamu</h4>
+                    <p>
+                        Bersamamu, aku menjadi versi diriku yang lebih baik.
+                        Aku belajar lebih peduli, lebih sabar, dan lebih tulus.
+                        Aku belajar mencintai tanpa ragu dan bermimpi tanpa takut.
+                        Kamu membuatku ingin tumbuh dan membangun masa depan bersamamu.
+                        Aku bukan lagi orang yang sama — aku lebih baik karena ada kamu.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ALASAN MENCINTAIMU -->
+        <section class="section-card">
+            <h3>Beberapa alasan kenapa aku mencintaimu</h3>
+            <p class="section-subtitle">
+                Aku bisa menulis sepanjang hari, tapi ini beberapa di antaranya:
+            </p>
+
+            <ul class="reasons-list">
+                <li>Caramu peduli, bahkan pada hal-hal kecil.</li>
+                <li>Pelukanmu yang selalu terasa paling aman.</li>
+                <li>Senyummu saat kamu malu dan berusaha menyembunyikannya.</li>
+                <li>Caramu percaya pada kita, bahkan saat aku ragu.</li>
+                <li>Kebahagiaanmu yang menular ke semua orang di sekitarmu.</li>
+                <li>Kesungguhanmu saat mengejar impian.</li>
+                <li>Caramu mendengarkan ceritaku, bahkan saat aku tidak pandai menjelaskannya.</li>
+                <li>Caramu mengingat hal-hal kecil tentang diriku yang bahkan sering kulupakan.</li>
+                <li>Dan semua hal lain yang membuatmu menjadi dirimu aku mencintaimu apa adanya 💝</li>
+            </ul>
+        </section>
+
+        <footer class="site-footer">
+            <p>
+                Dibuat dengan sepenuh hati untukmu.
+                <span class="footer-heart">♥</span>
+            </p>
+        </footer>
+    </main>
+
+    <audio id="bgMusic" src="musica.mp3" preload="auto" loop style="display:none" autoplay></audio>
+    <script src="script.js"></script>
+</body>
+</html>
